@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mama's Market</title>
+    <link rel="stylesheet" href="/sign-up.css">
+    <script src="/script.js"></script>
+    <link rel="stylesheet" href="/server.js">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body class="body">
+      <div class="reg">
+        <!-- <img src="/image/green_logo_yellow_outline_360.png" alt="" class="img"> -->
+    <h1 id="log">Sign up to Mama's Market</h1><br><br>
+    <form  action="/login.html">
+        <label for="Full Name"></label><br>
+        <span class="material-icons" id="icon1">person</span><input type="text" placeholder="Full Name" id="labelid" name="Full Name" required class="add" ><br><br>
+        <label for="Email"></label><br>
+        <span class="material-icons" id="icon1">mail</span><input type="email" placeholder="Email" id="labelid" name="Email Address" required class="add"><br><br>
+        <label for="password"></label><br>
+        <span class="material-icons" id="icon1">lock</span><input type="password" placeholder="Password" id="labelid" name="password" required class="add"><br><br>
+        <label for="Confirm Password"></label><br>
+        <span class="material-icons" id="icon1">lock</span><input type="password" placeholder="Confirm Password" id="labelid" name="Confirm Password" required class="add"><br><br>
+        <a href="/Category.html"><input type="button" value="Sign up" onclick="authenticateRegister()" class="button2" ></a>
+        <br><br>
+        <p class="account">Already have an account? <a href="/login.html" id="login">Login</a></p>
+    </form>
+</div>
+</body>
+</html>
