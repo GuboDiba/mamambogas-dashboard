@@ -1,0 +1,151 @@
+.topnav {
+    overflow: hidden;
+    /* background-color: #E1D89F; */
+    position: relative;
+    width: 200px;
+    height: 180px;
+  }
+  .topnav #myLinks {
+    display: none;
+    height: 300px;
+    margin-top: 40px;
+    width: 550px;
+  }
+  .topnav a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+/* Style the hamburger menu */
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 100;
+    top: 0;
+    font-size: 40px;
+    color: #024C02;
+    padding-bottom: 3%;
+    padding-right: 3%;
+  }
+  .topnav a:hover {
+    /* background-color:#E1D89F; */
+    color: #024C02;
+    size: 40px;
+  }
+  #home{
+    margin-bottom: -10px;
+  }
+  .active {
+    background-color: #04AA6D;
+  }
+  .img{
+    width: 20%;
+    height: 20%;
+  }
+  .imgs{
+    width: 7%;
+    height: 7%;
+    margin-left: 90%;
+  }
+  .category{
+    margin-left: 30%;
+    margin-top: 5%;
+    font-size: 400%;
+    color: green;
+  }
+  .category1{
+    font-weight: bolder;
+    color: #024C02;
+    width: 100%;
+    font-size: 20px;
+  }
+.veg{
+    padding:2% 20%;
+    background-color: green;
+    color: white;
+    font-size: large;
+    border-radius: 5px;
+    border-color: white;
+}
+.list-a{
+    border-left: none;
+    border-right: none;
+    border-top: 2px solid #E1D89F;
+    border-bottom: 2px solid #E1D89F;
+    /* line-height: 65px; */
+        }
+  #list-a{
+          display: inline-flex;
+          gap: 8em;
+        }
+         /* adding a checkbox */
+  input[type="checkbox"]:checked {
+    background-image: url(https://example.com/tick.png);
+  }
+  input[type="checkbox"]:not(:checked) {
+    background-image: url(https://example.com/x.png);
+  }
+  #apple{
+    width: 15%;
+    align-items: center;
+  }
+  #mango{
+    width: 30%;
+    align-items: center;
+  }
+  #cabbage{
+    width: 45%;
+    align-items: center;
+  }
+  #name{
+    margin-left: 20px;
+  }
+  #list-b{
+    display: inline-flex;
+    margin-top: 30px;
+  }
+  #a{
+    margin-left: 20px;
+  }
+  #b{
+    margin-left: 250px;
+  }
+  #c{
+    margin-left: 300px;
+  }
+  #d{
+    margin-left: 300px;
+    padding-left: 5px;
+    border: 1px solid #ECEAD9;
+    border-radius: 8px;
+    background-color: #ECEAD9;
+  }
+  #abcd{
+    margin-top: -50px;
+  }
+  /* uplooad  button */
+  .button {
+    display: inline-block;
+    color: black;
+    cursor: pointer;
+    margin: 3.5px;
+  }
+  .button:hover {
+    background-color: #45A049;
+  }
+  .add{
+    width: 30%;
+    padding: 1%;
+    border-radius: 5px;
+    padding: 1.5%;
+    /* margin-top: 3%; */
+}
+
+
+
+
+
+
+
