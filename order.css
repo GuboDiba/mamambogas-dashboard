@@ -1,0 +1,52 @@
+.topnav {
+    overflow: hidden;
+    /* background-color: #E1D89F; */
+    position: relative;
+    width: 200px;
+    height: 180px;
+  }
+  .topnav #myLinks {
+    display: none;
+    height: 300px;
+    margin-top: 40px;
+    width: 550px;
+  }
+  .topnav a {
+    color: black;
+    padding: 10px 16px;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+/* Style the hamburger menu */
+.topnav a.icon {
+    display: block;
+    position: absolute;
+    right: 100;
+    top: 0;
+    font-size: 40px;
+    color: #024C02;
+    padding-bottom: 3%;
+    padding-right: 3%;
+  }
+  .topnav a:hover {
+    /* background-color:#E1D89F; */
+    color: #024C02;
+    size: 40px;
+  }
+  .imgs{
+    width: 7%;
+    height: 7%;
+    margin-left: 90%;
+  }
+  .inp{
+    padding: 5%;
+    width: 60%;
+  }
+  .clear{
+    padding: 1%;
+    width: 10%;
+    background-color: #45A049;
+    margin-left: 15%;
+    margin-top: -7%;
+  }
